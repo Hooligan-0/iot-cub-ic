@@ -1,0 +1,49 @@
+(export (version D)
+  (design
+    (source /home/gwen/Agilack/Projects/iot-cub-ic/hw-power_shld/prj-kicad/cubic-power_shld-r01.sch)
+    (date "Mon 06 Jul 2015 03:17:57 PM CEST")
+    (tool "eeschema (2013-mar-13)-stable"))
+  (components
+    (comp (ref PwrIn1)
+      (value BAT)
+      (libsource (lib cubic-power_shld-r01) (part BAT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 559A547C))
+    (comp (ref PWR_OUT1)
+      (value PWR)
+      (libsource (lib cubic-power_shld-r01) (part PWR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 559A8037)))
+  (libparts
+    (libpart (lib cubic-power_shld-r01) (part BAT)
+      (fields
+        (field (name Reference) BAT)
+        (field (name Value) BAT))
+      (pins
+        (pin (num 3) (name P3) (type power_out))
+        (pin (num 4) (name P4) (type power_out))
+        (pin (num 9) (name P9) (type power_out))))
+    (libpart (lib cubic-power_shld-r01) (part PWR)
+      (fields
+        (field (name Reference) PWR_OUT)
+        (field (name Value) PWR))
+      (pins
+        (pin (num 1) (name P1) (type power_in))
+        (pin (num 5) (name P5) (type power_in))
+        (pin (num 6) (name P6) (type power_in)))))
+  (libraries
+    (library (logical cubic-power_shld-r01)
+      (uri cubic-power_shld-r01.lib)))
+  (nets
+    (net (code 1) (name "")
+      (node (ref PwrIn1) (pin 3)))
+    (net (code 2) (name "")
+      (node (ref PwrIn1) (pin 4)))
+    (net (code 3) (name "")
+      (node (ref PwrIn1) (pin 9)))
+    (net (code 4) (name "")
+      (node (ref PWR_OUT1) (pin 1)))
+    (net (code 5) (name "")
+      (node (ref PWR_OUT1) (pin 5)))
+    (net (code 6) (name "")
+      (node (ref PWR_OUT1) (pin 6)))))

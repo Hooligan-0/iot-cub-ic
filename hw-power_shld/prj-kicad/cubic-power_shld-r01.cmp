@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-stable date = Mon 06 Jul 2015 03:26:12 PM CEST
+
+BeginCmp
+TimeStamp = /559A547C;
+Reference = PwrIn1;
+ValeurCmp = BAT;
+IdModule  = PWR_IN;
+EndCmp
+
+BeginCmp
+TimeStamp = /559A8037;
+Reference = PWR_OUT1;
+ValeurCmp = PWR;
+IdModule  = PWR_OUT;
+EndCmp
+
+EndListe
