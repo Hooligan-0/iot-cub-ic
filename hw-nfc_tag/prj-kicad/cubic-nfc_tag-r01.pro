@@ -1,4 +1,4 @@
-update=Fri 03 Jul 2015 11:39:52 PM CEST
+update=Sat 10 Jul 2015 17:47:05 AM CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -12,10 +12,10 @@ version=1
 version=1
 LastNetListRead=cubic-nfc_tag-r01.net
 UseCmpFile=1
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
+PadDrill=1.016
+PadDrillOvalY=1.016
+PadSizeH=1.905
+PadSizeV=1.905
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
