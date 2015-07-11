@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-stable date = Sat 11 Jul 2015 11:48:30 AM CEST
+
+BeginCmp
+TimeStamp = /55A0E64D;
+Reference = COMM1;
+ValeurCmp = CONN_3;
+IdModule  = CONN_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0E661;
+Reference = COMM2;
+ValeurCmp = CONN_3;
+IdModule  = CONN_3;
+EndCmp
+
+EndListe
