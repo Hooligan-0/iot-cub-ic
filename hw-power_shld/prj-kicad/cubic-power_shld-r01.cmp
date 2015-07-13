@@ -1,4 +1,46 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-stable date = Mon 06 Jul 2015 03:26:12 PM CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun. 13 juil. 2015 18:59:27 CEST
+
+BeginCmp
+TimeStamp = /559ADF01;
+Reference = bq25504_1;
+ValeurCmp = BQ25504;
+IdModule  = RGT_S-PVQFN-N16;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A3AC29;
+Reference = Cbyp1;
+ValeurCmp = C;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A3B330;
+Reference = Chvr1;
+ValeurCmp = C;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A39774;
+Reference = Cref1;
+ValeurCmp = C;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A3AC45;
+Reference = Cstor1;
+ValeurCmp = C;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A3A9D0;
+Reference = Lbst1;
+ValeurCmp = INDUCTOR;
+IdModule  = LPS4018;
+EndCmp
 
 BeginCmp
 TimeStamp = /559A547C;
@@ -12,6 +54,69 @@ TimeStamp = /559A8037;
 Reference = PWR_OUT1;
 ValeurCmp = PWR;
 IdModule  = PWR_OUT;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E7F;
+Reference = Roc1;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E70;
+Reference = Roc2;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E61;
+Reference = Rok1;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E52;
+Reference = Rok2;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E43;
+Reference = Rok3;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E03;
+Reference = Rov1;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E16;
+Reference = Rov2;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E25;
+Reference = Ruv1;
+ValeurCmp = R;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A38E34;
+Reference = Ruv2;
+ValeurCmp = R;
+IdModule  = c_0805;
 EndCmp
 
 EndListe
