@@ -1,42 +1,44 @@
-update=Fri 03 Jul 2015 11:39:52 PM CEST
+update=lun. 13 juil. 2015 19:13:46 CEST
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
-[pcbnew]
-version=1
-LastNetListRead=cubic-power_shld-r01.net
-UseCmpFile=1
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1.5
-ModuleTextSizeH=1.5
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
-[pcbnew/libraries]
-LibDir=
-LibName1=cubic-power_shld-r01
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=cubic-power_shld-r01
+LibName2=c
+LibName3=gnd
+LibName4=r
+LibName5=inductor
+[pcbnew]
+version=1
+LastNetListRead=cubic-power_shld-r01.net
+UseCmpFile=1
+PadDrill="    1,016000"
+PadDrillOvalY="    1,016000"
+PadSizeH="    1,905000"
+PadSizeV="    1,905000"
+PcbTextSizeV="    1,500000"
+PcbTextSizeH="    1,500000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,500000"
+ModuleTextSizeH="    1,500000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,200000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,150000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
+[pcbnew/libraries]
+LibName1=cubic-power_shld-r01
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[general]
+version=1

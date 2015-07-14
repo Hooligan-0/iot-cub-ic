@@ -1,0 +1,53 @@
+eeschema (2013-jul-07)-stable  >> Creation date: lun. 13 juil. 2015 19:00:39 CEST
+#Cmp ( order = Reference ) (with SubCmp)
+| bq25504_1  BQ25504     
+| Cbyp1      C           
+| Chvr1      C           
+| Cref1      C           
+| Cstor1     C           
+| Lbst1      INDUCTOR    
+| PWR_OUT1   PWR         
+| PwrIn1     BAT         
+| Roc1       R           
+| Roc2       R           
+| Rok1       R           
+| Rok2       R           
+| Rok3       R           
+| Rov1       R           
+| Rov2       R           
+| Ruv1       R           
+| Ruv2       R           
+#End Cmp
+
+#Cmp ( order = Value ) (with SubCmp)
+| BQ25504      bq25504_1 Loc /(X=140,970 mm, Y=82,550 mm)
+| C            Cbyp1     Loc /(X=109,220 mm, Y=83,820 mm)
+| C            Chvr1     Loc /(X=208,280 mm, Y=80,010 mm)
+| C            Cref1     Loc /(X=144,780 mm, Y=113,030 mm)
+| C            Cstor1    Loc /(X=109,220 mm, Y=90,170 mm)
+| INDUCTOR     Lbst1     Loc /(X=195,580 mm, Y=74,930 mm)
+| BAT          PwrIn1    Loc /(X=88,900 mm, Y=80,010 mm)
+| R            Roc1      Loc /(X=190,500 mm, Y=97,790 mm)
+| PWR          PWR_OUT1  Loc /(X=227,330 mm, Y=80,010 mm)
+| R            Roc2      Loc /(X=190,500 mm, Y=85,090 mm)
+| R            Rok1      Loc /(X=172,720 mm, Y=114,300 mm)
+| R            Rok2      Loc /(X=168,910 mm, Y=114,300 mm)
+| R            Rok3      Loc /(X=165,100 mm, Y=127,000 mm)
+| R            Rov1      Loc /(X=153,670 mm, Y=165,100 mm)
+| R            Rov2      Loc /(X=157,480 mm, Y=152,400 mm)
+| R            Ruv1      Loc /(X=161,290 mm, Y=152,400 mm)
+| R            Ruv2      Loc /(X=165,100 mm, Y=139,700 mm)
+#End Cmp
+
+#Global, Hierarchical Labels and PinSheets ( order = Sheet Number ) count = 2
+> VBAT_OK                      Global              Loc /(X=119,380 mm, Y=99,060 mm)
+> VccNFC                       Global              Loc /(X=214,630 mm, Y=95,250 mm)
+#End labels
+
+#Global, Hierarchical Labels and PinSheets ( order = Alphab. ) count = 2
+
+> VBAT_OK                      Global              Loc /(X=119,380 mm, Y=99,060 mm)
+> VccNFC                       Global              Loc /(X=214,630 mm, Y=95,250 mm)
+#End labels
+
+#End List
