@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  lun. 13 juil. 2015 18:58:48 CEST
+PCBNEW-LibModule-V1  mar. 14 juil. 2015 16:19:36 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -100,81 +100,81 @@ Po -2.54 0
 $EndPAD
 $EndMODULE PWR_OUT
 $MODULE RGT_S-PVQFN-N16
-Po 0 0 0 15 55A3EE3B 00000000 ~~
+Po 0 0 0 15 55A51A63 00000000 ~P
 Li RGT_S-PVQFN-N16
 Sc 0
-AR 
+AR /559ADF01
 Op 0 0 0
-T0 0 -3.81 1.5 1.5 0 0.15 N V 21 N "RGT_S-PVQFN-N16"
-T1 2.54 -1.27 1.5 1.5 0 0.15 N V 21 N "VAL**"
+T0 0 -3.81 1.5 1.5 0 0.15 N V 21 N "bq25504_1"
+T1 2.54 -1.27 1.5 1.5 0 0.15 N I 21 N "BQ25504"
 $PAD
 Sh "1" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "N-0000011"
 Po 0.5 0.3
 $EndPAD
 $PAD
 Sh "2" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "N-0000019"
 Po 1 0.3
 $EndPAD
 $PAD
 Sh "3" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "N-000001"
 Po 1.5 0.3
 $EndPAD
 $PAD
 Sh "4" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "N-0000017"
 Po 2 0.3
 $EndPAD
 $PAD
 Sh "5" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "N-0000011"
 Po 2.5 0.8
 $EndPAD
 $PAD
 Sh "6" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "N-000002"
 Po 2.5 1.3
 $EndPAD
 $PAD
 Sh "7" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 11 "N-000006"
 Po 2.5 1.8
 $EndPAD
 $PAD
 Sh "8" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 10 "N-000005"
 Po 2.5 2.3
 $EndPAD
 $PAD
 Sh "9" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "N-000004"
 Po 2 2.8
 $EndPAD
 $PAD
 Sh "10" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "N-000003"
 Po 1.5 2.8
 $EndPAD
 $PAD
@@ -188,35 +188,35 @@ $PAD
 Sh "12" R 0.18 0.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "N-0000011"
 Po 0.5 2.8
 $EndPAD
 $PAD
 Sh "13" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "N-0000011"
 Po 0 2.3
 $EndPAD
 $PAD
 Sh "14" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "N-0000016"
 Po 0 1.8
 $EndPAD
 $PAD
 Sh "15" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "N-0000015"
 Po 0 1.3
 $EndPAD
 $PAD
 Sh "16" R 0.18 0.3 0 0 900
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 12 "N-000009"
 Po 0 0.8
 $EndPAD
 $EndMODULE RGT_S-PVQFN-N16
