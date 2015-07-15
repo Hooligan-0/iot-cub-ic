@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun. 13 juil. 2015 18:59:27 CEST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mer. 15 juil. 2015 12:20:21 CEST
 
 BeginCmp
 TimeStamp = /559ADF01;
 Reference = bq25504_1;
 ValeurCmp = BQ25504;
-IdModule  = RGT_S-PVQFN-N16;
+IdModule  = QFN16;
 EndCmp
 
 BeginCmp

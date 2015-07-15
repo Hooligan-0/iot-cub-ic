@@ -1,6 +1,6 @@
-update=lun. 13 juil. 2015 19:13:46 CEST
+update=mer. 15 juil. 2015 12:19:53 CEST
 version=1
-last_client=kicad
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -37,8 +37,8 @@ ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
 LibName1=cubic-power_shld-r01
 LibDir=
+[general]
+version=1
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1

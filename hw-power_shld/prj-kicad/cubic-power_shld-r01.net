@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hurdman/Depots/iot-cub-ic/hw-power_shld/prj-kicad/cubic-power_shld-r01.sch)
-    (date "mar. 14 juil. 2015 16:48:42 CEST")
+    (date "mer. 15 juil. 2015 12:28:18 CEST")
     (tool "eeschema (2013-jul-07)-stable"))
   (components
     (comp (ref PwrIn1)
@@ -100,6 +100,19 @@
         (pin (num 3) (name P3) (type power_out))
         (pin (num 4) (name P4) (type power_out))
         (pin (num 9) (name P9) (type power_out))))
+    (libpart (lib c) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib cubic-power_shld-r01) (part BQ25504)
       (fields
         (field (name Reference) bq25504_)
@@ -133,19 +146,6 @@
         (pin (num 1) (name P1) (type power_in))
         (pin (num 5) (name P5) (type power_in))
         (pin (num 6) (name P6) (type power_in))))
-    (libpart (lib c) (part C)
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib inductor) (part INDUCTOR)
       (fields
         (field (name Reference) L)
