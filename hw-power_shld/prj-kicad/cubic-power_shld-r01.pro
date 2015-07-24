@@ -1,4 +1,4 @@
-update=lun. 13 juil. 2015 19:13:46 CEST
+update=jeu. 16 juil. 2015 19:15:25 CEST
 version=1
 last_client=kicad
 [eeschema]
@@ -15,14 +15,17 @@ LibName2=c
 LibName3=gnd
 LibName4=r
 LibName5=inductor
+[cvpcb]
+version=1
+NetIExt=net
 [pcbnew]
 version=1
 LastNetListRead=cubic-power_shld-r01.net
 UseCmpFile=1
-PadDrill="    1,016000"
-PadDrillOvalY="    1,016000"
-PadSizeH="    1,905000"
-PadSizeV="    1,905000"
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    1,016000"
+PadSizeV="    0,304800"
 PcbTextSizeV="    1,500000"
 PcbTextSizeH="    1,500000"
 PcbTextThickness="    0,300000"
@@ -35,10 +38,8 @@ DrawSegmentWidth="    0,150000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
-LibName1=cubic-power_shld-r01
 LibDir=
-[cvpcb]
-version=1
-NetIExt=net
+LibName1=cubic-power_shld-r01
+LibName2=OSHW-logo
 [general]
 version=1
